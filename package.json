@@ -1,19 +1,19 @@
 {
   "name": "redis-mock",
-  "version": "0.56.3",
+  "version": "1.0.0",
   "description": "Redis client mock object for unit testing",
   "author": "Kristian Faeldt <kristian.faeldt@gmail.com>",
   "main": "./lib/index",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeahoffline/redis-mock"
+    "url": "https://github.com/CodeWithBryan/redis-mock"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "mocha": "6.2.3",
-    "redis": "^3.0.2",
-    "rsmq": "^0.12.2",
+    "eslint": "^8.29.0",
+    "mocha": "10.2.0",
+    "redis": "^4.5.1",
+    "rsmq": "^0.12.4",
     "should": "13.2.3"
   },
   "scripts": {
@@ -49,11 +49,12 @@
     "matthewmatician (Matthew Larson) <matthewmatician@gmail.com>",
     "christian-muertz (Christian Mürtz) <teraarts@t-online.de>",
     "DawidLoubser (Dawid Loubser) <dawid.loubser@gmail.com>",
-    "kamiljano (Kamil Janowski) <kgjanowski@gmail.com>"
+    "kamiljano (Kamil Janowski) <kgjanowski@gmail.com>",
+    "CodeWithBryan (Bryan Gillespie) <bryandesigning@gmail.com>"
   ],
   "bugs": {
-    "url": "https://github.com/yeahoffline/redis-mock/issues",
-    "email": "frank.gasser@gmail.com"
+    "url": "https://github.com/CodeWithBryan/redis-mock/issues",
+    "email": "bryandesigning@gmail.com"
   },
   "engines": {
     "node": ">=6"
